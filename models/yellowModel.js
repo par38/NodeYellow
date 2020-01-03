@@ -2,9 +2,13 @@ const mongoose = require('mongoose')
 
 // // + ++++++++++ schéma MVC ++++++++++
 const yellowSchema = mongoose.Schema({
-  name: String,
+  nom: String,
   mail: String,
-  city: String
+  ville: String,
+  age: Number,
+  famille: String,
+  role: String,
+  password: String
 });
 
 // où members est la collection
